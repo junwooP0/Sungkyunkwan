@@ -1,0 +1,16 @@
+File 'shell.c'
+Lines executed:9.51% of 6708
+Branches executed:12.02% of 4834
+Taken at least once:7.86% of 4834
+Calls executed:7.60% of 2435
+Creating 'shell.c.gcov'
+
+Lines executed:9.51% of 6708
+File 'sqlite3.c'
+Lines executed:51.75% of 36624
+Branches executed:58.01% of 24363
+Taken at least once:38.41% of 24363
+Calls executed:41.78% of 9691
+Creating 'sqlite3.c.gcov'
+
+Lines executed:51.75% of 36624
