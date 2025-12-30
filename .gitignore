@@ -1,0 +1,11 @@
+# xv6 build artifacts
+xv6-riscv/.vscode/
+xv6-riscv/.gdbinit
+xv6-riscv/*.o
+xv6-riscv/*.d
+xv6-riscv/kernel/kernel
+xv6-riscv/user/_*
+xv6-riscv/fs.img
+xv6-riscv/mkfs/mkfs
+xv6-riscv/qemu.log
+xv6-riscv/.qemu*
