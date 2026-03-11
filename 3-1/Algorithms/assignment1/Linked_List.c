@@ -41,9 +41,8 @@ void insert(Llist *lst, int x){
 void delete(Llist *lst, int x) {
     Node *now = lst->head;
     Node *previous = NULL;
-    int position = 1;
 
-    for(int position = 1; now != NULL; position++, now = now->next){
+    for(int position = 1; now != NULL; position++){
         Node *next = now->next;
 
         if (position % 2 == 1 && now->data == x) {

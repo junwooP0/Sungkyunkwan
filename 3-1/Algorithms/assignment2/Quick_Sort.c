@@ -129,9 +129,9 @@ int partition_b(int *arr, int low, int high, int *count)
     int temp = 0;
     int pivotIdx;
 
-    if ((arr[first] < arr[mid]) && (arr[first] > arr[last]) || (arr[first] > arr[mid]) && (arr[first] < arr[last]))
+    if (((arr[first] < arr[mid]) && (arr[first] > arr[last])) || ((arr[first] > arr[mid]) && (arr[first] < arr[last])))
         pivotIdx = first;
-    else if ((arr[mid] < arr[first]) && (arr[mid] > arr[last]) || (arr[mid] > arr[first]) && (arr[mid] < arr[last]))
+    else if (((arr[mid] < arr[first]) && (arr[mid] > arr[last])) || ((arr[mid] > arr[first]) && (arr[mid] < arr[last])))
         pivotIdx = mid;
     else
         pivotIdx = last;
