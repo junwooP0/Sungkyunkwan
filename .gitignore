@@ -9,3 +9,4 @@ xv6-riscv/fs.img
 xv6-riscv/mkfs/mkfs
 xv6-riscv/qemu.log
 xv6-riscv/.qemu*
+weather_data.csv
